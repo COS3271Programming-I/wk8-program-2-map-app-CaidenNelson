@@ -17,7 +17,7 @@ public class MapApp {
         login.put("Myles","987");
         message.put("Myles","Go for a walk");
 
-        login.put("George","1977");
+        login.put("George","1984");
         message.put("George","Turn off the oven");
 
         login.put("Micheal","atlu&e42");
@@ -30,8 +30,7 @@ public class MapApp {
         username = userinput.nextLine();
         username = username.substring(0,1).toUpperCase() + username.substring(1).toLowerCase();
 
-        System.out.println(login.get(username));
-        System.out.println("what the pass");
+        System.out.println("what the password");
         password = userinput.nextLine();
 
         if(password.equals(login.get(username))){
